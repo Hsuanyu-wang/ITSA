@@ -12,14 +12,6 @@ int main(){
             scanf("%d", &array[i]);
             count[i] = 0;
         }
-//        for(int i = 0; i< array_num; i++){
-//            printf("%d", array[i]);
-//        }
-//        printf("\n");
-//        for(int i = 0; i< array_num; i++){
-//            printf("%d", count[i]);
-//        }
-//        printf("\n");
         for(int i = 0; i< array_num; i++){
             count[array[i]]++;
         }
@@ -33,11 +25,3 @@ int main(){
     }
 	return 0;
 }
-
-//3
-//10
-//1 2 2 3 3 3 4 5 5 6
-//12
-//1 1 1 2 2 3 4 7 8 8 9 9
-//18
-//1 1 1 2 2 3 4 4 4 4 4 5 6 6 7 8 8 9
